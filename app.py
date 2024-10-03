@@ -160,7 +160,7 @@ def display_search_results(filtered_df, sia):
     for index, row in filtered_df.iterrows():
         st.markdown(f"**Content:** {row['Content']}")
         sentiment = analyze_sentiment_nltk(row['Content'], sia)
-        st.markdown(f"**Predicted Sentiment:** {sentiment}")
+        st.markdown(f"**Sentiment:** {sentiment}")
         st.markdown("---")
 
 # Function to create word cloud
