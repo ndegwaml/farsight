@@ -1,0 +1,8 @@
+streamlit
+pandas
+plotly
+altair
+matplotlib
+wordcloud
+nltk
+openpyxl
